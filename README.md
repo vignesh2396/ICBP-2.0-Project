@@ -33,7 +33,7 @@ This project uses a pre-trained AnimeGAN2 model to stylize human faces into anim
 
 ### 1. Clone the Repository (if applicable)
 ```bash
-git clone [<your-repo-url>](https://github.com/vignesh2396/ICBP-2.0-Project.git)
+git clone https://github.com/vignesh2396/ICBP-2.0-Project.git
 cd ICBP-2.0-Project
 ```
 
