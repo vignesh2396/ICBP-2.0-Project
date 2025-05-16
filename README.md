@@ -1,18 +1,18 @@
-# 🎨 AnimeGAN2 Face Stylizer
+# 🎨 AnimeGAN Face Stylizer
 
-A Streamlit web application that converts human face images into anime-style portraits using the AnimeGAN2 model.
+A Streamlit web application that converts human face images into anime-style portraits using the AnimeGAN2/AnimeGAN3 model.
 
 ---
 
 ## 📌 About the Project
 
-This project uses a pre-trained AnimeGAN2 model to stylize human faces into anime-style artwork. It provides an intuitive interface for users to upload an image, select an output scale, view both original and stylized versions, and download the result.
+This project uses a pre-trained AnimeGAN2 model to stylize human faces into anime-style artwork and AnimeGAN3 for landscape images. It provides an intuitive interface for users to upload an image, select an output scale, view both original and stylized versions, and download the result.
 
 ---
 
 ## ✨ Highlights
 
-- ✅ **AnimeGAN2 Model**: Powered by a pre-trained AnimeGAN2 model from Torch Hub.
+- ✅ **AnimeGAN Model**: Powered by a pre-trained AnimeGAN model from Torch Hub.
 - ⚡ **Optimized Performance**: Uses GPU acceleration when available.
 - 🔍 **Scale Options**: Supports multiple output size scales (Original, 1.5x, 2x, 3x).
 - 🖼️ **Side-by-Side Display**: Displays original and stylized images next to each other.
@@ -22,7 +22,7 @@ This project uses a pre-trained AnimeGAN2 model to stylize human faces into anim
 
 ## ⚠️ Limitations
 
-- 🎭 Works best with clear, front-facing human faces.
+- 🎭 AnimeGAN2 Works best with clear, front-facing human faces and AnimeGAN3 works best for landscape images
 - 🌐 Requires internet access to load the model from Torch Hub (GitHub) on the first run.
 - 📁 Accepts only `.jpg`, `.jpeg`, and `.png` image formats.
 - 🔍 No face detection validation – ensure the image includes a face.
